@@ -17,7 +17,7 @@ client.on("messageCreate", function(message) {
   };
   if (command === "sagesse") {
     return sagesse(message)
-  }
+  };
 });
 
 client.login(`${process.env.BOT_TOKEN}`);
